@@ -1,0 +1,914 @@
+
+
+.custom-nav {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+}
+  nav img{
+    height:35px;
+    margin-right:50px;
+  }
+
+  nav ul{
+    margin-left:100px;
+
+  }
+
+  nav ul li{
+    margin-right:30px;
+  }
+    
+  .log{
+  background-color:#212026;
+  color:white;
+  margin-left: 3px;
+}
+
+.log:hover{
+  background-color:white;
+  border-color: #212026;
+}
+
+ .navbar form button{
+    background-color: #212026;
+    color: white;
+    border-radius:4px;
+}
+
+.navbar form button:hover{
+     background-color:#255475;
+     color: white;
+
+}
+
+.logo2 {
+  width: 117px;
+  height: 26px;
+  margin-top: 5%;
+  object-fit: contain;
+
+}
+
+#search-bar{
+        height: 38px;
+}
+/* HOMEPAGE */
+ #home {
+    
+    font-family: sans-serif;
+    text-align:center;
+    background: url('../images/5.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+  
+    
+  }
+
+  #home .display3 {
+  width: 440px;
+  height: 61px;
+  font-size: 41px;
+  font-weight: 500;
+  margin-left: 22%;
+  margin-top: 2%;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#home .display4{
+  
+  
+  width: 398px;
+  height: 155.7px;
+  font-size: 25px;
+  margin-left: 23%;
+  margin-top: 2%;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+
+.Group {
+  width: 517px;
+  height: 293px;
+  object-fit: contain;
+}
+
+.Plan {
+  width: 446.4px;
+  height: 38.9px;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.81;
+  letter-spacing: normal;
+  color: #373a3c;
+  margin-top: 2%;
+  margin-left: 6%;
+}
+
+.textDesc {
+  width: 454.6px;
+  height: 122.3px;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #373a3c;
+  margin-top: 2%;
+  margin-left: 6%;
+
+}
+
+
+.how-it-works {
+  width: 439.2px;
+  height: 50.1px;
+  border-radius: 4px;
+  margin-top: 5%;
+  background-color: #212026;
+  color: white;
+  opacity: 1;
+}
+
+.how-it-works:hover{
+  background-color: #FF7E30;
+  border: none;
+}
+
+
+
+a:hover 
+{
+     color: #FF7E30; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+/* FORM */
+
+.form-control {
+  width: 65%;
+  height: 20px;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+}
+
+.salad-bowl{
+  margin-left: 50%;
+  margin-top: -33%;
+}
+
+ #welcome {
+  margin-top: 20px;
+  width: 35%;
+  height: 615px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  margin-left: 18%;
+  margin-bottom: 1%;
+}
+
+/* All recipes tab */
+
+#all-recipes{
+  background: url('../images/7.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  
+}
+
+  #all-recipes .flex-container {
+   
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+      
+    }
+
+   #all-recipes img{
+    margin-top: 1%;
+
+  }
+  .card2 {
+  height: 460px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  margin-left: 21%;
+  margin-bottom: 5%;
+  margin-top: 40px;
+  transition-duration: 1s;
+  
+}
+
+    #all-recipes .card2:hover
+{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition-duration: 1s;
+}
+
+
+   #all-recipes .logo2 {
+  width: 117px;
+  height: 26px;
+  object-fit: contain;
+  margin-top: 5px;
+  margin-left: -30%;
+}
+
+
+   #all-recipes .image_wrapper{
+  height: 250px;
+  overflow: hidden;
+}
+
+
+   #all-recipes .image_wrapper img{
+  width:100%;
+  height: auto;
+  text-align: center;
+}
+
+   #all-recipes .card_body h5{
+ font-weight: bold;
+ padding-bottom: 5px;
+ margin-top: 10px;
+}
+
+   #all-recipes .card_body{
+  text-align: left;
+ padding: 40px;
+ position: relative;
+}
+
+   #all-recipes h6{
+  margin-bottom: 30px;
+}
+
+   #all-recipes .card_divider{
+  margin-bottom: 50px;
+}
+
+
+   #all-recipes .view-recipe {
+  width: 50%;
+  height: 50.1px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color:  #87D37C;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  bottom: 0px;
+}
+
+   #all-recipes .view-recipe:hover{
+
+  background-color: #FF7E30;
+  width: 80%;
+  transition-duration: 500ms;
+  border-color: #FF7E30;
+
+
+}
+
+/* Admin table */
+
+th, tbody{
+  color: whitesmoke;
+  
+  
+}
+tbody{
+  font-weight: bold;
+}
+table {
+  margin-top: 20px;
+}
+
+/* View recipe tab */
+
+#detailed-view {
+  
+    font-family: sans-serif;
+    text-align:center;
+    background: url('../images/5.png');
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    
+  }
+
+  
+
+#detailed-view a{
+  text-decoration: none;
+  color: white;
+}
+
+#detailed-view a:hover 
+{
+     color: #FF7E30; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+
+#detailed-view label{
+  margin-top: 8px;
+}
+
+
+#detailed-view .image_enlarged{
+  height: 500px;
+  margin: auto;
+}
+
+ #detailed-view .image_enlarged img{
+  
+   height: 100%;
+   width: auto;
+ }
+
+ #detailed-view .description {
+   padding: 40px;
+   text-align: left;
+   width:45%;
+   position: relative;
+ }
+
+ #detailed-view .description h3{
+   font-weight: bold;
+
+ }
+
+ #detailed-view .description h5{
+   margin-bottom: 40px;
+ }
+
+ #detailed-view .price{
+   font-weight: lighter;
+   color: #FF7E30;
+   position: absolute;
+   bottom: 100px;
+ }
+#detailed-view .cardView {
+  min-height: 500px;
+  height: 650px;
+  margin-top: 40px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+
+}
+
+#detailed-view .order{
+  width: 50%;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color:  #87D37C;
+  color: white;
+  opacity: 1;
+  position: absolute;
+  bottom: 30px;
+  
+  
+}
+
+
+
+#detailed-view .order:hover{
+  
+  background-color: #FF7E30;
+  width: 80%;
+  transition-duration: 500ms;
+  border-color: #FF7E30;
+}
+
+/* Message Screens and explanations */
+
+ #success {
+ 	background-image: url("../images/2.png");
+	position:relative;
+	background-repeat: no-repeat;
+    height: 100vh; 
+    text-align: center;
+    color:white;
+
+  }
+
+  
+#success .thank-you{
+  width: 29%;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  margin-top: 40px;
+  color:white;
+  font-size: 22px;
+
+
+}
+#success .thank-you:hover{
+    background-color: #FF7E30;
+    color:white;
+
+}
+
+#success .confirming-order{
+  font-size: 27px;
+}
+
+#success a{
+    color:white;
+    
+}
+
+#success .confirmationTitle{
+  
+  width: 264px;
+  height: 67px;
+  font-size: 66px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: normal;
+  text-align: center;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding-top: 235px;
+}
+
+
+#success .confirmMessage{
+ 
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  padding-top: 90px;
+  margin-top: -5%;
+}
+
+   
+
+    #confirm-order  {
+  background-image: url("../images/2.png");
+	position: relative;
+	background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  color: white;
+ 
+
+  }
+
+  #confirm-order .cancel-order {
+  width: 278px;
+  height: 52px;
+  border-radius: 4px;
+  border: solid 1px #ffffff;
+  background-color: transparent;
+  color:white;
+  margin-right:5px;
+  font-size: 23px;
+ 
+}
+
+#confirm-order .button-success{
+
+  width: 278px;
+  height: 52px;
+  border-radius: 4px;
+  background-color: #5cb85c;
+  margin-left:5px;
+  color:white;
+  font-size: 23px;
+
+
+}
+
+#confirm-order a{
+    color:white;
+}
+
+#confirm-order .cancel-order:hover{
+  background-color: #FF7E30;
+}
+#confirm-order .button-success:hover{
+  background-color: #FF7E30;
+}
+#confirm-order .Group-5 {
+  width: 152px;
+  height: 109px;
+  object-fit: contain;
+}
+
+#confirm-order .confirming-order{
+  font-size: 27px;
+}
+
+.confirmation-wrapper {
+  padding-top:80px;
+}
+
+.confirmation-wrapper img{
+ margin-bottom:40px;
+}
+#confirm-order .confirmation-wrapper {
+  padding-top:90px;
+}
+
+	
+#confirm-order #datepicker{
+    width: 100%;
+    height: 40px;
+}
+
+
+#confirm-order .centerimg{
+  margin-left: 45%;
+  margin-bottom: -10%;
+  padding-top: 8.5%;
+  margin-bottom:40px;
+}
+#confirm-order .form-group{
+  width: 200px;
+  margin-left: 43%;
+  margin-top: 3%;
+}
+
+
+  #error{
+  background-image: url("../images/2.png");
+	position: relative;
+	background-repeat: no-repeat;
+  height: 100vh;
+  
+
+  }
+
+  .boiling {
+  margin-left: 640px;
+  margin-top: 25px;
+  width: 20%;
+  height: 176px;
+  object-fit: contain;
+  
+}
+
+.lead{
+
+  width: 30%;
+  height: 30.6px;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+#error a{
+  color: white;
+}
+
+  #rules{
+  background-image: url("../images/5.png");
+	position: relative;
+	background-repeat: no-repeat;
+  height:100%;
+  background-color: #373a3c;
+  }
+ 
+  
+
+
+#rules .image1{
+  width: 525px;
+  height: 304px;
+}
+
+  #rules .bags {
+  width: 613px;
+  height: 450px;
+  margin-left: 5%;
+  object-fit: contain;
+}
+
+
+.text{
+padding:20px 60px 0 0;
+color:white;
+}
+
+#rules .row {
+    margin-bottom:70px;
+}
+
+#rules .bingo-systems-logo-homeslider-light {
+  width: 220px;
+  height: 70px;
+  margin-top: -20%;
+  margin-left: 200px;
+  object-fit: contain;
+}
+
+#rules .mercator-logotip-rdec-negative-pokoncen {
+  width: 69px;
+  height: 69px;
+  margin-top: -32%;
+  margin-left: 485px;
+  object-fit: contain;
+}
+
+#rules .Konzum-Logosvg {
+  width: 194px;
+  height: 41px;
+  margin-top: -55%;
+  margin-left: 630px;
+  object-fit: contain;
+}
+
+#rules .novi-logo-amko {
+  width: 204.4px;
+  height: 53.8px;
+  margin-top: -69%;
+  margin-left: 900px;
+  object-fit: contain;
+}
+
+#rules .px-Dm-drogerie-Logosvg {
+  width: 110px;
+  height: 76px;
+  margin-top: -90%;
+  margin-left: 1200px;
+  object-fit: contain;
+}
+
+#forms {
+    padding-top:50px;
+}
+
+#forms p{
+        color: white;
+    font-size: 16px;
+    margin-left: 52%;
+    line-height: 28px;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+
+/* Login and register */
+
+
+#forms {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    background: url('../images/7.png');
+    background-repeat: no-repeat;
+    position: relative;
+      }
+
+  
+
+#forms h2
+{
+ font-family:Tahoma, Geneva, sans-serif;
+ color:#00a2d1;
+}
+#forms .form-container
+{
+ width: 33%;
+ margin: 0 auto;
+ margin-bottom: 50px;
+ background:#fff;
+ padding: 20px;
+ box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+ border-radius:3px;
+ margin-top: 50px;
+}
+#forms button
+{
+ font-family:sans-serif;
+ font-size:25px;
+}
+#forms label
+{
+ font-family:Helvetica sans-serif;
+ color: #00a9d1;
+}
+#forms a
+{
+ text-decoration: none;
+}
+
+#forms input[type="text"], #forms input[type="password"] {
+  
+  
+  width: 62%;
+  height: 38px;
+  font-family: Helvetica, sans-serif;
+  border-radius: 4px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+#forms button[type="submit"]{
+  
+  margin-top: 5px;
+  width: 65%;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 4px;
+  border: solid 1px #0275d8;
+  background-color: #212026;
+  color: white;
+  cursor: pointer;
+  
+}
+
+#forms button[type="submit"]:hover{
+  background: #00b8eb;
+}
+
+#forms .header{
+   
+    padding: 10px 0px;
+    width: 100%;
+    text-align:center;
+}
+
+#forms .header a{
+    color: white;
+    text-decoration:none;
+}
+
+
+
+#forms .BG{
+  width: 30%;
+  height: 20px;
+  border-radius: 4px;
+  border: solid 1px #0275d8;
+  background-color: #212026;
+  color:whitesmoke;
+}
+
+
+
+#forms .note{
+  font-size: 25px;
+  color: #212026;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+
+#forms .glyphicon-log-out {
+  margin-top: 5px;
+}
+
+
+#forms .header .left
+{
+ float:left;
+ position:relative;
+ left:150px;
+}
+#forms .header .right
+{
+ float:right;
+ position:relative;
+ right:150px;
+}
+#forms .content
+{
+ margin:0 auto;
+ margin-top:100px;
+ text-align:center;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size:55px;
+ color: whitesmoke;
+}
+#forms .content p
+{
+ font-size:30px;
+ color:#004567;
+ width:800px;
+ margin:0 auto;
+}
+
+#forms .card{
+  width: 40%;
+  height: 700px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 110px;
+  
+}
+
+#forms .register{
+  margin-left: 15%;
+  margin-bottom: 10%;
+  
+  
+}
+#forms .Group-3 {
+  width: 149px;
+  height: 104px;
+  margin-top: -47%;
+  margin-left: 51%;
+  object-fit: contain;
+}
+
+#forms .app-about{
+  margin-left: 52%;
+  margin-top: -40%;
+  font-family: Helvetica;
+  color: whitesmoke;
+}
+
+#forms .p-one{
+  font-family: Helvetica;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-left: 52%;
+  line-height: 40px;
+  margin-bottom: 2%;
+
+}
+
+
+
+#forms .Group-3 {
+  width: 87px;
+  height: 113px;
+  margin-left: 52%;
+  margin-bottom: 40%;
+  object-fit: contain;
+}
+
+#forms .card2 {
+  width: 612px;
+  height: 616px;
+  border-radius: 4px;
+  border: solid 1px #e5e5e5;
+  background-color: #ffffff;
+  margin-left: 20%;
+}
+
+
+#forms li {
+    list-style-type: none;
+}
+
+
+
+
+
+
